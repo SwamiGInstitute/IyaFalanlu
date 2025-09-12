@@ -136,7 +136,7 @@
     <div class="topbar">
       <div class="logo">
         <!-- Full path logo (absolute URL) -->
-        <img src="http://myoracle.itgo.com/SwamiG.gif" alt="SwamiG Institute Logo" />
+        <img src="http://swamiginstitute.github.io/SwamiG.gif" alt="SwamiG Institute Logo" />
         <div class="brand">
           <h1>SwamiG Institute — Ifá • Isésé • Orisha</h1>
           <small>70-888-Swami • “Extending Royal Legacy” • “on the shoulders of enlightened ancestors”</small>
