@@ -1,13 +1,13 @@
-# Iya Falanlu & SwamiG <!DOCTYPE html>
+# Iya Falanlu & Awo SwamiG 
 <html lang="en">
 <head>
-  <!-- Ifá Mystic Storage — Landing Page (SwamiG Institute) -->
+  <!-- Iya Falanlu & Awo SwamiG — Landing Page (SwamiG Institute) -->
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="theme-color" content="#0b0b0f" />
   <meta name="color-scheme" content="dark" />
-  <title>Ifá Mystic Storage — SwamiG Institute | Audio • PDFs • Images • Initiation Resources</title>
-  <meta name="description" content="Central storage for Ifá / Isésé / Orisha study materials by SwamiG Institute — audio teachings, PDFs, images, and initiation resources. Michigan nonprofit — 501(c)(3) recognition pending." />
+  <title>  Isésé • Ifá  • Orisha| Audio • PDFs • Images • Initiation Resources</title>
+  <meta name="description" content="Central storage for Ifá / Isésé / Orisha study materials by SwamiG Institute and Iya Falanlu — audio teachings, PDFs, images, and initiation resources. Michigan nonprofit — 501(c)(3) recognition pending." />
   <meta name="generator" content="SwamiGInstitute.com 70-888-Swami" />
 
   <style>
@@ -139,12 +139,12 @@
         <img src="http://myoracle.itgo.com/SwamiG.gif" alt="SwamiG Institute Logo" />
         <div class="brand">
           <h1>SwamiG Institute — Ifá • Isésé • Orisha</h1>
-          <small>70-888-Swami • “Many paths 1 truth” • “We seek no followers”</small>
+          <small>70-888-Swami • “Extending Royal Legacy” • “on the shoulders of enlightened ancestors”</small>
         </div>
       </div>
       <div></div>
       <div class="contact">
-        <a href="mailto:AwoSwamiG@gmail.com">AwoSwamiG@gmail.com</a>
+        <a href="mailto:Baba@swamiginstitute.com">Baba@swamiginstitute.com</a>
         <div class="paylinks">
           <b>Pay:</b> <a href="https://www.paypal.com/ncp/payment/5M949GKNMDHJN">PayPal</a> • Cash App <b>$DrSwamiG</b>
         </div>
@@ -154,7 +154,7 @@
     <!-- Hero: Title + Mission (side-by-side) -->
     <section class="hero">
       <div class="card pad glow">
-        <h2>Ifá Mystic Storage</h2>
+        <h2>Falanlu SwamiG</h2>
         <p>Central access to sacred study assets for students and initiates — audio teachings, PDFs, images, and lineage resources organized for quick reference and sharing.</p>
         <div class="tagrow">
           <span class="tag">Audio Lectures</span>
@@ -396,7 +396,7 @@
           <p class="meta">Begin with divination and orientation. Logistics, offerings, and preparation are determined case-by-case.</p>
           <div class="actions">
             <a class="btn" href="#consult">Start Inquiry</a>
-            <a class="btn" href="mailto:AwoSwamiG@gmail.com">Email</a>
+            <a class="btn" href="mailto:Baba@Swamiginstitute.com">Email</a>
           </div>
         </div>
         <div class="item">
@@ -415,7 +415,7 @@
       <h2>Divination & Consults</h2>
       <p class="meta">Schedule a reading to clarify path, purpose, and next steps. Remote sessions available.</p>
       <div class="actions">
-        <a class="btn" href="mailto:AwoSwamiG@gmail.com?subject=Divination%20Inquiry">Email for Scheduling</a>
+        <a class="btn" href="mailto:Baba@swamiginstitute.com?subject=Divination%20Inquiry">Email for Scheduling</a>
         <a class="btn" href="https://www.paypal.com/ncp/payment/5M949GKNMDHJN">Honorarium via PayPal</a>
         <span class="btn" aria-disabled="true">Cash App: $DrSwamiG</span>
       </div>
@@ -423,7 +423,7 @@
 
     <!-- Bottom Pay Links (as requested: show near top and bottom) -->
     <section style="margin-top:16px" class="card pad">
-      <h2>Support Ifá Mystic Storage</h2>
+      <h2>Support this program</h2>
       <p class="meta">Help us maintain and expand this library for students and initiates.</p>
       <div class="actions">
         <a class="btn" href="https://www.paypal.com/ncp/payment/5M949GKNMDHJN">PayPal</a>
