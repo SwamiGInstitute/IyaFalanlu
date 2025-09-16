@@ -1,115 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IyaFalanlu — Guided Orisha Audio Meditations</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <title>IyaFalanlu — Guided Orisha Meditations</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <h1 class="site-title">IyaFalanlu</h1>
-      <p class="site-tagline">Guided Orisha-Style Meditations for Inner Peace & Spiritual Harmony</p>
-      <nav class="site-nav">
-        <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#meditations">Meditations</a></li>
-          <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+  <header>
+    <h1>IyaFalanlu</h1>
+    <p>Guided Orisha-Style Meditations</p>
   </header>
 
-  <section id="home" class="hero-section">
-    <div class="container">
-      <h2>Journey into the Orisha&nbsp;Realm Through Sound</h2>
-      <p>Experience guided meditations inspired by the Orisha traditions. Let the rhythms, voices, and sacred energy guide your spirit.</p>
-      <a href="#meditations" class="btn">Explore Meditations</a>
-    </div>
-  </section>
+  <main>
+    <section class="intro">
+      <h2>Journey Through Sound</h2>
+      <p>These meditations are inspired by the sacred Orisha traditions. Allow the rhythms, prayers, and voices to guide your spirit toward balance and peace.</p>
+    </section>
 
-  <section id="about" class="about-section">
-    <div class="container">
-      <h2>About IyaFalanlu</h2>
-      <p>IyaFalanlu offers carefully crafted audio journeys rooted in Orisha spirituality—designed to help you connect, heal, and awaken. Each meditation is guided by tradition, infused with intention, and meant to evoke peace.</p>
-      <p>Whether you are new to Orisha practice or looking for deeper immersion, our meditations offer safe, respectful space for spiritual exploration.</p>
-    </div>
-  </section>
-
-  <section id="meditations" class="meditations-section">
-    <div class="container">
+    <section class="audio-list">
       <h2>Featured Meditations</h2>
-      <div class="meditation-list">
-        <!-- Example of a single meditation audio card -->
-        <div class="meditation-card">
-          <h3>Guided Meditation: Eleggua’s Path</h3>
-          <p>A journey through thresholds & life’s crossroads, guided with Eleggua’s presence and voice.</p>
-          <audio controls>
-            <source src="audio/eleggua_path.mp3" type="audio/mp3" />
-            Your browser does not support the audio element.
-          </audio>
-        </div>
 
-        <div class="meditation-card">
-          <h3>Meditation: Yemaya’s Embrace</h3>
-          <p>Immerse yourself in the calm waves of Yemaya—nurturing, restorative, and deeply maternal.</p>
-          <audio controls>
-            <source src="audio/yemaya_embrace.mp3" type="audio/mp3" />
-            Your browser does not support the audio element.
-          </audio>
-        </div>
-
-        <!-- More meditation cards as needed -->
+      <!-- Keep same first 4 audio links -->
+      <div class="track">
+        <h3>Meditation 1</h3>
+        <p>Guided journey invoking spiritual clarity.</p>
+        <audio controls>
+          <source src="1stIyaFalanlu.wav" type="audio/wav">
+        </audio>
       </div>
-    </div>
-  </section>
 
-  <section id="testimonials" class="testimonials-section">
-    <div class="container">
-      <h2>What Listeners Say</h2>
-      <div class="testimonial">
-        <blockquote>
-          "The Eleggua meditation unlocked something in me — I felt guided and protected."  
-        </blockquote>
-        <cite>— Listener in Atlanta</cite>
+      <div class="track">
+        <h3>Meditation 2</h3>
+        <p>Centered on the Ori, aligning inner head and spirit.</p>
+        <audio controls>
+          <source src="IyaFalanluOri.wav" type="audio/wav">
+        </audio>
       </div>
-      <div class="testimonial">
-        <blockquote>
-          "Yemaya’s waves were like balm to my soul. I deeply felt her nurturing presence."  
-        </blockquote>
-        <cite>— Listener in Chicago</cite>
+
+      <div class="track">
+        <h3>Meditation 3</h3>
+        <p>Calming sequence for grounding and restoration.</p>
+        <audio controls>
+          <source src="IyaFalanlu3.wav" type="audio/wav">
+        </audio>
       </div>
-      <!-- More testimonials -->
-    </div>
-  </section>
 
-  <section id="contact" class="contact-section">
-    <div class="container">
-      <h2>Contact & Connect</h2>
-      <p>Want to request a specific meditation, share your experience, or ask questions? Reach out below.</p>
-      <form action="/contact-submit" method="post">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+      <div class="track">
+        <h3>Meditation 4</h3>
+        <p>Rhythmic prayer meditation for deeper connection.</p>
+        <audio controls>
+          <source src="IyaFalanlu4.wav" type="audio/wav">
+        </audio>
+      </div>
+    </section>
+  </main>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="5"></textarea>
-
-        <button type="submit" class="btn">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <div class="container">
-      <p>&copy; 2025 IyaFalanlu. All rights reserved.</p>
-      <p>Inspired by Orisha traditions. Content is created with respect, intention & reverence.</p>
-    </div>
+  <footer>
+    <p>&copy; 2025 IyaFalanlu.com — Guided Orisha Meditations & SwamiG Institute</p>
   </footer>
 </body>
 </html>
