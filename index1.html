@@ -1,62 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>IyaFalanlu — Guided Orisha Meditations</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b0b0f" />
+  <meta name="color-scheme" content="dark" />
+  <title>IyaFalanlu — Guided Orisha Meditations (Audio Only)</title>
+  <meta name="description" content="IyaFalanlu — audio-only page featuring the first four guided Orisha meditations and study tracks." />
+  <style>
+    :root{
+      --bg:#0b0b0f;
+      --ink:#eaeaf2;
+      --muted:#b5b5c4;
+      --accent:#bb66ff;
+      --accent-muted:rgba(187,102,255,0.18);
+      --accent-lineage:rgba(102,255,178,.35);
+      --radius:20px;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 600px at 20% -10%, rgba(102,255,178,.08), transparent 60%),
+                                   radial-gradient(900px 500px at 120% 10%, rgba(187,102,255,.08), transparent 60%),
+                                   var(--bg);color:var(--ink);font-family:Inter,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;}
+    a{color:var(--ink); text-decoration-color: var(--accent)}
+    header{padding:28px 18px 8px; text-align:center}
+    .logo{height:64px; width:auto; opacity:.9; filter: drop-shadow(0 0 10px rgba(187,102,255,.25));}
+    h1{font-size:1.4rem; margin:10px 0 6px; letter-spacing:.2px}
+    .tag{color:var(--muted); font-size:.95rem}
+    .wrap{max-width:920px; margin:0 auto; padding:16px}
+    .panel{background:rgba(255,255,255,.02); border:1px solid rgba(255,255,255,.08); border-radius:var(--radius); padding:18px; box-shadow:0 10px 30px rgba(0,0,0,.3)}
+    .panel + .panel{margin-top:16px}
+    .tracks{display:grid; gap:12px}
+    .track{display:grid; gap:10px; padding:14px; border-radius:16px; background:rgba(255,255,255,.03); border:1px solid rgba(255,255,255,.08)}
+    .track h3{margin:0; font-size:1.05rem}
+    .meta{color:var(--muted); font-size:.9rem}
+    .row{display:flex; gap:10px; align-items:center; flex-wrap:wrap}
+    audio{width:100%; height:40px}
+    .btn{display:inline-block; padding:8px 12px; border-radius:12px; border:1px solid rgba(255,255,255,.14); background:var(--accent-muted); color:var(--ink); text-decoration:none; font-weight:600}
+    .btn:hover{border-color:var(--accent); box-shadow:0 0 0 3px rgba(187,102,255,.18)}
+    footer{padding:32px 16px 60px; text-align:center; color:var(--muted); font-size:.9rem}
+  </style>
 </head>
 <body>
   <header>
-    <h1>IyaFalanlu</h1>
-    <p>Guided Orisha-Style Meditations</p>
-  </header>
-
-  <main>
-    <section class="intro">
-      <h2>Journey Through Sound</h2>
-      <p>These meditations are inspired by the sacred Orisha traditions. Allow the rhythms, prayers, and voices to guide your spirit toward balance and peace.</p>
+    <img class="logo" alt="SwamiG Institute" src="https://swamiginstitute.github.io/SwamiG.gif" />
+    <h1>IyaFalanlu — Guided Orisha Meditations</h1>
+    <div class="tag">Audio • study tracks • same IyaFalanlu.com style — first 4 audios preserved</div>
+  </header>  <main class="wrap">
+    <section class="panel">
+      <h2 style="margin:0 0 10px 0; font-size:1.15rem">Audio Library</h2>
+      <div class="tracks">
+        <!-- 01 -->
+        <article class="track">
+          <h3>01 • Iya Falanlu Reiki</h3>
+          <div class="meta">Format: WAV • Source: iyafalanlu.com</div>
+          <div class="row">
+            <audio controls preload="metadata">
+              <source src="https://iyafalanlu.com/1IyaFalanlu.wav" type="audio/wav" />
+              Your browser does not support the audio element.
+            </audio>
+            <a class="btn" href="https://iyafalanlu.com/1IyaFalanlu.wav" download>Download</a>
+          </div>
+        </article>
+        <!-- 02 -->
+        <article class="track">
+          <h3>02 • Ori Study</h3>
+          <div class="meta">Format: MP3 • Source: iyafalanlu.com</div>
+          <div class="row">
+            <audio controls preload="metadata">
+              <source src="https://iyafalanlu.com/2IyaFalanlu_Ori.mp3" type="audio/mpeg" />
+            </audio>
+            <a class="btn" href="https://iyafalanlu.com/2IyaFalanlu_Ori.mp3" download>Download</a>
+          </div>
+        </article>
+        <!-- 03 -->
+        <article class="track">
+          <h3>03 • Time for Breath</h3>
+          <div class="meta">Format: WAV • Source: iyafalanlu.com</div>
+          <div class="row">
+            <audio controls preload="metadata">
+              <source src="https://iyafalanlu.com/3IyaFalanlu.wav" type="audio/wav" />
+            </audio>
+            <a class="btn" href="https://iyafalanlu.com/3IyaFalanlu.wav" download>Download</a>
+          </div>
+        </article>
+        <!-- 04 -->
+        <article class="track">
+          <h3>04 • Casting Basics</h3>
+          <div class="meta">Format: MP3 • Source: swamiginstitute.github.io</div>
+          <div class="row">
+            <audio controls preload="metadata">
+              <source src="https://swamiginstitute.github.io/media/ifa-mystic/clip04-casting-basics.mp3" type="audio/mpeg" />
+            </audio>
+            <a class="btn" href="https://swamiginstitute.github.io/media/ifa-mystic/clip04-casting-basics.mp3" download>Download</a>
+          </div>
+        </article>
+      </div>
     </section>
-
-    <section class="audio-list">
-      <h2>Featured Meditations</h2>
-
-      <!-- Keep same first 4 audio links -->
-      <div class="track">
-        <h3>Meditation 1</h3>
-        <p>Guided journey invoking spiritual clarity.</p>
-        <audio controls>
-          <source src="1stIyaFalanlu.wav" type="audio/wav">
-        </audio>
-      </div>
-
-      <div class="track">
-        <h3>Meditation 2</h3>
-        <p>Centered on the Ori, aligning inner head and spirit.</p>
-        <audio controls>
-          <source src="IyaFalanluOri.wav" type="audio/wav">
-        </audio>
-      </div>
-
-      <div class="track">
-        <h3>Meditation 3</h3>
-        <p>Calming sequence for grounding and restoration.</p>
-        <audio controls>
-          <source src="IyaFalanlu3.wav" type="audio/wav">
-        </audio>
-      </div>
-
-      <div class="track">
-        <h3>Meditation 4</h3>
-        <p>Rhythmic prayer meditation for deeper connection.</p>
-        <audio controls>
-          <source src="IyaFalanlu4.wav" type="audio/wav">
-        </audio>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <p>&copy; 2025 IyaFalanlu.com — Guided Orisha Meditations & SwamiG Institute</p>
+  </main>  <footer>
+    © SwamiG Institute — Michigan nonprofit (501(c)(3) recognition pending)
   </footer>
 </body>
 </html>
